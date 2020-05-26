@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TopoComponent } from './Topo';
+import { PainelComponent } from './painel';
+import { TentativasComponent } from './tentativas';
+import { ProgressoComponent } from './progresso';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopoComponent
+    TopoComponent,
+    PainelComponent,
+    TentativasComponent,
+    ProgressoComponent
   ],
   imports: [
     BrowserModule,
